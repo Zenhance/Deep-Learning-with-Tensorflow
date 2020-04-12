@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 def data_preprocess():
-    data = pd.read_csv("G:/Python/Deep Learing Course/data/Life Expectancy Data.csv", header=[0])
+    data = pd.read_csv("G:/Python/Deep Learing Course/Deep Learning with Tensorflow/data/Life Expectancy Data", header=[0])
 
     encodable_feature = ['Status']
 

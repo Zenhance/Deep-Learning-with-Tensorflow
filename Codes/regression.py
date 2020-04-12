@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 def data_preprocess():
-    data = pd.read_csv("G:/Python/Deep Learing Course/data/cars.csv", header=[0])
+    data = pd.read_csv("G:/Python/Deep Learing Course/Deep Learning with Tensorflow/data/cars.csv", header=[0])
 
     data['gender'] = data['gender'].map({0: 'Male', 1: 'Female'})
 

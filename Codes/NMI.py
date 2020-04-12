@@ -11,7 +11,7 @@ tf.compat.v1.disable_v2_behavior()
 
 
 def read_dataset():
-    data = pd.read_csv("G:/Python/Deep Learing Course/data/sonar.all-data.csv")
+    data = pd.read_csv("G:/Python/Deep Learing Course/Deep Learning with Tensorflow/data/sonar.all-data.csv")
 
     x = data[data.columns[0:60]].values
     y = data[data.columns[60]]
