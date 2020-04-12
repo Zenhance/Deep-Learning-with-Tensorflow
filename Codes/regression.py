@@ -38,11 +38,7 @@ def data_split(raw_data):
     datax = np.delete(raw_data, 4, axis=1)
     datay = raw_data[:, 4]
 
-    print(datay.shape)
-
     datay = np.reshape(datay, (-1, 1))
-
-    print(datay.shape)
 
     scaler_x = MinMaxScaler()
     scaler_y = MinMaxScaler()
